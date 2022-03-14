@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content{
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.auth-content{
+  width: fit-content;
+  margin: auto;
+}
+
+
+.auth-content button{
+  float: right;
+}
+
+.login-content{
+  float: left;
+  margin: 20px;
+}
+
+.register-content{
+  float: right;
+  margin: 20px;
+}
+
+
+.register-content input, .register-content button, .login-content input, .login-content button{
+  display: block;
+  margin-top: 15px;
+}
+
+.navbar{
+  padding: 15px;
+}
+
+
+.relative-layout{
+  position: relative;
+}
+
+
+table th, table td{
+  padding: 10px;
+  vertical-align: middle;
+}
+
+
+
+.home-content, .control-panel-content{
+  /* width: 90%; */
+  margin: 30px auto;
+  text-align: center;
+}
+
+.contact-content, .user-content{
+  max-width: 500px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.contact-content input, .user-content input{
+  display: block;
+  margin-top: 15px;
+}
+
+.contact-content button, .user-content button{
+  position: absolute;
+  right: 0;
+  display: block;
+  margin-top: 15px;
+}
+
+
+.admin-login-content{
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+}
+
+.admin-login-content input, .admin-login-content button{
+  display: block;
+  margin-top: 20px;
+}
+
+.admin-login-content button{
+  position: absolute;
+  right: 0;
+}
+
+.error-message{
+  clear: both;
+  color: red;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .login-content{
+    float: none;
+    clear: both;
+    width: 100%;
+  }
+  .register-content{
+    float: none;
+    clear: both;
+    width: 100%;
+  }
+
+
+  
+}
